@@ -1,0 +1,71 @@
+
+$bg_white: white;
+
+body {
+  font-family: sans-serif;
+}
+.container{
+  padding: 0;
+}
+.banner{
+  margin-bottom: 12px;
+    padding-top: 6px;
+    background: $bg_white;
+}
+.left_panel {
+  background: black;
+  color: $bg_white;
+  text-align: center;
+  overflow-y: auto;
+  height: 100vh;
+  &::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #f5f5f5;
+  }
+
+  &::-webkit-scrollbar {
+    width: 5px;
+    background-color: #f5f5f5;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #d62929;
+  }
+}
+.right_panel {
+  background: #ebeded;
+}
+.left_panel_name {
+  padding: 20px 0px;
+  border-bottom: 1px solid #888;
+  cursor: pointer;
+}
+
+// add category css
+.add_category_form {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+// end add category css
+// show category
+.category_table {
+  background-color: $bg_white;
+  padding-bottom: 4px;
+  .table{
+    font-size: 12px;
+  }
+}
+.badge{
+  padding: 7px 15px;
+    font-size: 13px;
+    cursor: pointer;
+}
+.fas {
+  padding-right: 6px;
+}
+// end show category

@@ -1,0 +1,5 @@
+export const PENDING = 'PENDING';
+export const CATEGORY_SUCCESS = 'CATEGORY_SUCCESS';
+export const DELETE_CATEGORY = 'DELETE_CATEGORY';
+export const PRODUCT_SUCCESS = 'PRODUCT_SUCCESS';
+export const ERROR = 'ERROR';
